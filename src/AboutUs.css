@@ -1,0 +1,61 @@
+.about-us-container {
+    padding: 20px;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-card {
+    text-align: center;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+    cursor: pointer; /* Add pointer cursor to indicate interactivity */
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+  
+  .team-member-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Ensure the image fits within the circle */
+  }
+  
+  .role {
+    font-style: italic;
+  }
+  
+  .extra-info {
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    font-size: 24px;
+  }
+  
+  .social-icons a .anticon-twitter {
+    color: #1da1f2; /* Twitter original color */
+  }
+  
+  .social-icons a .anticon-linkedin {
+    color: #0077b5; /* LinkedIn original color */
+  }
+  
+  .social-icons a .anticon-instagram {
+    color: #e1306c; /* Instagram original color */
+  }
+  
+  .social-icons a .anticon-github {
+    color: #333; /* GitHub original color */
+  }
+  

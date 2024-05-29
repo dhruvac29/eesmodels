@@ -1,0 +1,35 @@
+.toxicity-container {
+    padding: 20px;
+  }
+  
+  .toxicity-card {
+    padding: 20px;
+  }
+  
+  .toxicity-header {
+    margin-bottom: 16px;
+  }
+  
+  .toxicity-dragger,
+  .toxicity-select,
+  .toxicity-button {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .toxicity-stats {
+    margin-top: 20px;
+  }
+  
+  .ant-card {
+    background: #f0f2f5;
+  }
+  
+  .ant-statistic-title {
+    font-size: 16px;
+  }
+  
+  .ant-statistic-content-value {
+    font-size: 24px;
+  }
+  

@@ -1,0 +1,51 @@
+:root {
+  --background-color: #f0f2f5;
+  --header-background-color: #1f1f1f;
+  --footer-background-color: #1f1f1f;
+  --text-color-light: #ffffff;
+  --highlight-color: #1890ff;
+  --contact-text-color: #ffffff; /* White text for Contact Us */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background-color);
+}
+
+.menu-link {
+  color: var(--text-color-light) !important;
+  padding: 0 15px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.menu-link:hover {
+  color: var(--text-color-light) !important;
+}
+
+.contact-link {
+  background-color: var(--contact-bg-color);
+  color: var(--contact-text-color) !important;
+}
+
+.contact-link:hover {
+  background-color: var(--contact-bg-color);
+  color: var(--contact-text-color) !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: var(--highlight-color);
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: var(--highlight-color);
+}
+
+.ant-menu-dark .ant-menu-item-active {
+  background-color: var(--highlight-color);
+}
+
+.menu-link {
+  color: var(--text-color-light);
+}

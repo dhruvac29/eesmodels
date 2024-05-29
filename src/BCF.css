@@ -1,0 +1,37 @@
+/* BCF.css */
+
+/* Style for the container */
+.bcf-container {
+    padding: 20px;
+}
+
+/* Style for the header */
+.bcf-header {
+    margin-bottom: 16px;
+}
+
+/* Style for the file uploader, dropdown, and process button */
+.bcf-upload,
+.bcf-dropdown,
+.bcf-button {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+/* Style for the table */
+.bcf-table {
+    margin-top: 20px;
+}
+
+/* Custom styling for Ant Design components */
+.ant-card {
+    background: #f0f2f5;
+}
+
+.ant-statistic-title {
+    font-size: 16px;
+}
+
+.ant-statistic-content-value {
+    font-size: 24px;
+}

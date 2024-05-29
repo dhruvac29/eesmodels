@@ -1,0 +1,48 @@
+/* theme.css */
+
+:root {
+    --background-color: #f0f2f5;
+    --header-background-color: #001529;
+    --footer-background-color: #001529;
+    --text-color-light: #ffffff;
+  }
+  
+  /* General styles */
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  /* Logo styles */
+  img[alt="Logo"] {
+    background: none; /* Ensure there's no background on the logo */
+  }
+  
+  /* Menu link styles */
+  .menu-link {
+    color: var(--text-color-light) !important;
+    text-decoration: none;
+  }
+  
+  /* Remove the background from Menu items */
+  .ant-menu-horizontal {
+    background: var(--header-background-color) !important;
+  }
+  
+  .ant-menu-item {
+    borderBottom: none !important;
+  }
+  
+  /* Ensure there's no background on the header container holding the logo */
+  .header-logo-container {
+    display: flex;
+    align-items: center;
+    background: none; /* Ensure there's no background on the container */
+  }
+  
